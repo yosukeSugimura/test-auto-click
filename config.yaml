@@ -1,1 +1,10 @@
-API_KEY=your_key_here # 適切に修正
+github:
+  token: "YOUR_GITHUB_TOKEN"  # GitHubトークン
+  owner: "your-username"      # GitHubリポジトリの所有者
+  repo: "your-repository"     # GitHubリポジトリ名
+
+openai:
+  api_key: "YOUR_OPENAI_API_KEY"  # OpenAIのAPIキー
+
+  paths:
+  php_file: "src/Example.php"     # PHPファイルのパス
